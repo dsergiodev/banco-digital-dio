@@ -7,6 +7,7 @@ public class App {
 		//iniciando o banco
 		Banco santander = new Banco("Santander");
 		System.out.println("Bem-vindo ao Banco " + santander.getNome());
+		System.out.println("");
 
 		//criando cliente
 		Cliente daniel = new Cliente();
@@ -27,7 +28,7 @@ public class App {
 
 			santander.imprimirDetalhesTodasContas();
 
-			/*System.out.println("Valores iniciais:");
+			System.out.println("Valores iniciais:");
 			cc.extrato();
 			poupanca.extrato();
 			
@@ -51,9 +52,8 @@ public class App {
 				System.out.println("Valores após transferência:");
 				cc.extrato();
 				poupanca.extrato();
-			}*/
+			}
 		}
-		
 		
 	}
 }
